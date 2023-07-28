@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.flexcarrito  {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.imgcarrito {
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+}
+nav{
+  background-color: orangered;
+}
+button  {
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+}
+.flexlogo {
+  display: flex;
+  flex-direction: row;
+}
+.imglogo  {
+  width: 150px;
+}
