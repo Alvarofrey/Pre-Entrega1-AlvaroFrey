@@ -9,19 +9,16 @@ return (
         <img className='imglogo' src={Logo}></img>
         </div>
         <div>
-        <button>Cremas</button>
-        <button>Desodorantes</button>
-        <button>Perfumes</button>
-        <button>Jabones</button>
+          <button  className="btn btnCategoria">Jabones</button>
+          <button className="btn btnCategoria">Desodorantes</button>
+          <button className="btn btnCategoria">Perfumes</button>
+          <button className="btn btnCategoria">Cremas</button>
         </div>
         <CartWidget />
         
     
     
     </nav>
-    <main>
-    <ItemListContainer />
-    </main>
     </>
 )
 

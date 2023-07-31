@@ -40,24 +40,45 @@
   display: flex;
   flex-direction: row;
   justify-content: right;
+    
 }
 .imgcarrito {
   display: flex;
   flex-direction: row;
   width: 30px;
+
+}
+.carritoboton {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color: #ff6913;
+  border-spacing: 5px 5px;
+  border: 6px solid rgba(161, 161, 161, 0.281);
+}
+span{
+  color: black;
+  font-size: 17px;
 }
 nav{
-  background-color: orangered;
+  background-color: #ff6913;
 }
-button  {
-  background-color: black;
-  color: aliceblue;
-  font-size: 20px;
+.btnCategoria  {
+  text-align: center;
+    background-color: #ff6913;
+    border-radius: 18px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    height: 47px;
+    font-weight: bold;
+    border: 3px solid rgb(0, 0, 0);
+margin: 10px;
 }
 .flexlogo {
   display: flex;
   flex-direction: row;
 }
 .imglogo  {
-  width: 150px;
+  width: 130px;
 }

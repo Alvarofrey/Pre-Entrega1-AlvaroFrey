@@ -3,8 +3,10 @@ import cart from './assets/cart.svg'
 const CartWidget = () =>    {
     return (
         <div className='flexcarrito'>
-            <img className='imgcarrito' src={cart} alt="cart-widget"/>
-            (1)
+            <button className='carritoboton'>
+            <img className='imgcarrito' src={cart} alt="cart-widget" />
+            <span>1</span>
+            </button>
             
         </div>
     )
